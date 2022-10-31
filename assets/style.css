@@ -1,0 +1,173 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("./Images/oil.jpg");
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: #f70606;
+}
+
+@media screen and (min-width: 400px) {
+  body {
+    background-color: lightgreen;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  body {
+    background-color: rgb(185, 28, 199);
+  }
+}
+header{
+  padding: 100px;
+  color: #6e5959;
+}
+
+img.im1 {
+  float: left;
+  width: 300px;
+  border-radius: 150px;
+  }
+
+h1 { 
+  float: left;
+  font-size: 35px;
+  font-family: emoji;
+  font-weight: bolder;
+  padding: 20px; 
+}
+
+h2{
+
+color: #0e0c0d;
+}
+
+ul.nav-bar{
+  display: flex;
+  justify-content: space-evenly;
+  }
+
+  li.button {
+    display: inline-block;
+    padding: 9px 9px;
+    font-size: 20px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: rgb(110, 104, 104);
+    background-color: #d0ccd9d6;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 11px 8px 13px 0px #999c;
+  }
+
+  li.button:hover {background-color: #1e5fda
+  }
+
+  li.button:active {
+    background-color: #ec08bb;
+    box-shadow: 0 5px rgb(173, 169, 169);
+    transform: translateY(4px);
+  }
+
+section.about{
+margin: 100px;
+display: flex;
+flex-direction: row;
+align-items: center;
+}
+
+.about h3 {
+font-size: 30px;
+text-decoration: underline;
+color: rgb(20, 22, 26);
+font-style:italic;
+margin: 30px;
+
+}
+
+div.about {
+  border: 5px solid gray;
+  padding: 15px;
+}
+
+.about p{
+text-indent: 60px;
+text-align: justify;
+letter-spacing: 2px;
+font-weight: bold;
+color: black;
+}
+
+section.work {
+padding: 100px;
+display: flex;
+flex-direction: row;
+align-items: center;
+
+}
+.work h3 {
+font-size: 30px;
+text-decoration:underline;
+color: rgb(3, 3, 7);
+float: left;
+
+}
+
+div.column {
+  float:right;
+  padding: 20px;
+  border: 5px solid gray;
+  margin: 5px;
+}
+
+div.row::after {
+  clear: both;
+  display: table;
+}
+
+section.contact {
+
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+}
+
+ .contact h3{
+  font-size: 30px;
+  text-decoration: underline;
+  color: #000405e7;
+ }
+
+ div.git {
+   float: unset;
+   border: 5px solid gray;
+  padding: 15px;
+   text-align: inherit; 
+}
+ul.contact{
+  display: flex;
+  flex-direction:column;
+  align-content: flex-start;
+  font-size: 20px;
+  font-weight: bolder;
+
+}
+
+ .footer {
+  padding: 30px;
+  clear: both;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer h2 {
+  font-size: 20px;
+}
+ .footer p {
+font-weight: bolder;
+color: #ec08bb;
+ }
