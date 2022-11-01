@@ -4,8 +4,6 @@
 
 body {
   background-image: url("./Images/oil.jpg");
-font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  color: #f70606;
 }
 
 @media screen and (min-width: 400px) {
@@ -20,8 +18,13 @@ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida San
   }
 }
 header{
-  padding: 100px;
-  color: #6e5959;
+  /* padding: 100px; */
+color: black;
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: space-between;
+align-items: center;
 }
 
 img.im1 {
@@ -31,16 +34,19 @@ img.im1 {
   }
 
 h1 { 
-  float: left;
+  /* float: left; */
   font-size: 35px;
   font-family: emoji;
-  font-weight: bolder;
-  padding: 20px; 
+  font-weight: bolder; 
 }
 
 h2{
-
-color: #0e0c0d;
+font-size: 27pt;
+color: #58444e;
+text-transform: uppercase;
+border: 7px solid gray;
+padding: 20px;
+margin: 40px;
 }
 
 ul.nav-bar{
@@ -73,7 +79,7 @@ ul.nav-bar{
   }
 
 section.about{
-margin: 100px;
+margin: 150px;
 display: flex;
 flex-direction: row;
 align-items: center;
@@ -88,10 +94,9 @@ margin: 30px;
 
 }
 
-div.about {
-  border: 5px solid gray;
-  padding: 15px;
-}
+/* div.about {
+ 
+} */
 
 .about p{
 text-indent: 60px;
@@ -99,10 +104,12 @@ text-align: justify;
 letter-spacing: 2px;
 font-weight: bold;
 color: black;
+border: 5px solid gray;
+padding: 10px;
 }
 
 section.work {
-padding: 100px;
+padding: 150px;
 display: flex;
 flex-direction: row;
 align-items: center;
@@ -113,6 +120,7 @@ font-size: 30px;
 text-decoration:underline;
 color: rgb(3, 3, 7);
 float: left;
+padding: 20px;
 
 }
 
