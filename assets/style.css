@@ -4,6 +4,9 @@
 
 body {
   background-image: url("./Images/oil.jpg");
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap
 }
 
 @media screen and (min-width: 400px) {
